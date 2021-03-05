@@ -111,5 +111,32 @@ int main()
     printf("%f\n", pow(2.0, 3.0));
 
     printf("###########################\n");
+
+    int oneNum;
+
+    // do{
+    //     scanf("%d", &oneNum);
+    //     printf("INPUT\n");
+    // }while (oneNum % 2 != 0);
+
+    for (int i = 1; i <= 100; i++)
+    {
+        if (i % 2 == 1)
+            continue;
+        printf("%3d", i);
+        if (i % 5 == 0)
+            printf("\n");
+    }
+    printf("###########################\n");
+
+    int numbers[10] = {1, 2, 3, 4, 5, 6, 7};
+    int len = sizeof(numbers) / sizeof(int);
+    for (int i = 0; i < len; i++)
+    {
+        printf("%d\n", numbers[i]);
+    }
+
+    printf("###########################\n");
+    system("pause");
     return 0;
 }
