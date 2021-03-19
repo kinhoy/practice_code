@@ -1,4 +1,4 @@
-/* 1015 Reversible Primes */
+/* 1015_Reversible_Primes */
 #include <bits/stdc++.h>
 using namespace std;
 bool is_prime(int n)
