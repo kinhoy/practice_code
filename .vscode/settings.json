@@ -7,6 +7,9 @@
         "*.tcc": "cpp",
         "fstream": "cpp",
         "istream": "cpp",
-        "streambuf": "cpp"
+        "streambuf": "cpp",
+        "vector": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp"
     }
 }
